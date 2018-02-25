@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Input from './Input.js';
+import Button from './Button.js';
 
 class App extends Component {
     render() {
@@ -11,6 +12,7 @@ class App extends Component {
                     <h2>Welcome to React</h2>
                 </div>
                 <Input />
+                <Button />
             </div>
         );
     }
